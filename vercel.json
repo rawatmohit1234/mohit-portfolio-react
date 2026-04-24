@@ -1,6 +1,7 @@
 {
-  "buildCommand": "cd my-portfolio && npm run build",
-  "outputDirectory": "my-portfolio/dist",
+  "rootDirectory": "my-portfolio",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/(.*)",
